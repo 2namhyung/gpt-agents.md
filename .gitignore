@@ -1,8 +1,0 @@
-.codex/
-config.local.toml
-*.log
-__pycache__/
-*.py[cod]
-.pytest_cache/
-.venv/
-

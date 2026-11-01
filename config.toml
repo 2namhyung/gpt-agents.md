@@ -1,0 +1,317 @@
+model = "gpt-6.1-sol"
+model_reasoning_effort = "medium"
+model_verbosity = "low"
+personality = "pragmatic"
+model_context_window = 260000
+model_auto_compact_token_limit = 220000
+model_auto_compact_token_limit_scope = "total"
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+service_tier = "default"
+notify = [ "C:\\Users\\every\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\1fb7137c46617d50\\bin\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe", "turn-ended" ]
+[agents]
+max_depth = 1
+job_max_runtime_seconds = 1800
+interrupt_message = true
+enabled = true
+max_concurrent_threads_per_session = 3
+default_subagent_model = "gpt-6-sol"
+default_subagent_reasoning_effort = "medium"
+
+[profiles.mini]
+model = "gpt-5.4-mini"
+model_reasoning_effort = "medium"
+model_verbosity = "low"
+
+[profiles.balanced]
+model = "gpt-5.6-terra"
+model_reasoning_effort = "medium"
+model_verbosity = "low"
+
+[projects.'C:\Users\every\Documents\project\blog']
+trust_level = "trusted"
+
+[projects.'C:\Users\every']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\gongai']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\nunchi']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-06\https-github-com-world0world-claude-token']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\tonebridge']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\shorts']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-15\codex']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-17\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\crypto']
+trust_level = "trusted"
+
+[projects.'C:\Windows\System32']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\shorts2']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-23\grok-cli-x-grok-oauth']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-23\ai']
+trust_level = "trusted"
+
+[projects.'c:\users\every\onedrive\문서\arc']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-23\llm']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-24\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-27\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-05-29\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\dating']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\kimchiarbitrage']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-06-02\skill-plugin-plugin-api']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\greatperson']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\deltaneutral']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-06-17\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-06-23\w']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-06-23\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\ntsy']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-07-11\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-07-12\c']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\pizza']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\1tick']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\23jung']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\physical agent labs']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\motiongraphic']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\aimarketplace']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-09-13\new-chat']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\codex\2026-09-17\samuel']
+trust_level = "trusted"
+
+[projects.'c:\users\every\documents\project\cats']
+trust_level = "trusted"
+
+[windows]
+sandbox = "unelevated"
+
+[plugins."github@openai-curated"]
+enabled = true
+
+[plugins."documents@openai-primary-runtime"]
+enabled = false
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = false
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = false
+
+[plugins."vercel@openai-curated"]
+enabled = false
+
+[plugins."hugging-face@openai-curated"]
+enabled = false
+
+[plugins."supabase@openai-curated"]
+enabled = false
+
+[plugins."superpowers@openai-curated"]
+enabled = false
+
+[plugins."netlify@openai-curated"]
+enabled = false
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = false
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = false
+
+[plugins."visualize@openai-bundled"]
+enabled = false
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
+enabled = true
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = '\\?\C:\Users\every\.codex\.tmp\bundled-marketplaces\openai-bundled'
+
+[marketplaces.openai-primary-runtime]
+source_type = "local"
+source = '\\?\C:\Users\every\.cache\codex-runtimes\codex-primary-runtime\plugins\openai-primary-runtime'
+
+[marketplaces.ponytail]
+last_updated = "2026-08-09T07:15:34Z"
+last_revision = "2ed6c52c9d7e5e56942508591085fd45dea277d3"
+source_type = "git"
+source = "https://github.com/DietrichGebert/ponytail.git"
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+"gpt-5.6-sol" = 2
+
+[features]
+goals = true
+js_repl = false
+
+[desktop]
+dictationDictionary = []
+keepRemoteControlAwakeWhilePluggedIn = true
+followUpQueueMode = "queue"
+enabled-reasoning-efforts = ["low", "medium", "high", "xhigh"]
+browser-show-full-url = true
+
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"
+
+[mcp_servers.penpot-local]
+url = "http://localhost:4401/mcp"
+
+[mcp_servers.node_repl]
+args = []
+command = 'C:\Users\every\AppData\Local\OpenAI\Codex\runtimes\cua_node\1fb7137c46617d50\bin\node_repl.exe'
+env_vars = ["BROWSER_USE_ACCESS_EXECUTOR_ID", "BROWSER_USE_ACCESS_PIPE_PATH", "BROWSER_USE_ACCESS_VERIFYING_IDENTITY", "CODEX_WINDOWS_REGISTERED_CORE"]
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = 'C:\Users\every\AppData\Local\OpenAI\Codex\runtimes\cua_node\1fb7137c46617d50\bin\node_modules'
+NODE_REPL_NODE_PATH = 'C:\Users\every\AppData\Local\OpenAI\Codex\runtimes\cua_node\1fb7137c46617d50\bin\node.exe'
+NODE_REPL_TRUSTED_CODE_PATHS = 'C:\Users\every\.codex;C:\Users\every\AppData\Local\OpenAI\Codex\runtimes\cua_node\1fb7137c46617d50\bin\node_modules'
+CODEX_HOME = 'C:\Users\every\.codex'
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab,mcpapps"
+BROWSER_USE_TINYSKY_ENABLED = "1"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = ""
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.1021.31345"
+NODE_REPL_TRUSTED_SERVICES = '{"browser":"C:/Users/every/.codex/plugins/cache/openai-bundled/browser/26.1021.31345/scripts/browser-service.mjs","sky":"@oai/sky/service"}'
+SKY_CUA_NATIVE_PIPE = "1"
+SKY_CUA_NATIVE_PIPE_DIRECTORY = '\\.\pipe\codex-computer-use-bd42e01e-45ad-4a6f-80c8-e620071a04c2'
+CODEX_CLI_PATH = 'C:\Users\every\AppData\Local\OpenAI\Codex\bin\2993767bd1dfb009\codex.exe'
+NODE_REPL_UNTRUSTED_ENV_ALLOWLIST = "CODEX_WINDOWS_REGISTERED_CORE"
+NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE = ""
+
+[hooks.state]
+
+[hooks.state."ponytail@ponytail:hooks/claude-codex-hooks.json:session_start:0:0"]
+trusted_hash = "sha256:469244cc9dcbe0d03cee72cd0ca9427e782e79401e341d3e2404f31271395641"
+
+[hooks.state."ponytail@ponytail:hooks/claude-codex-hooks.json:user_prompt_submit:0:0"]
+trusted_hash = "sha256:8eff5fa1384d969f4c961e3e4a4075fdc68e6d802b7072f37f3f84977aa3d164"
+
+[hooks.state."ponytail@ponytail:hooks/claude-codex-hooks.json:subagent_start:0:0"]
+trusted_hash = "sha256:18c19b9212ec5cc8ddac802ab6ccc950791af4e14f298112ef536dac966f1f2a"
+
+[hooks.state."browser@openai-bundled:plugin.json#hooks[0]:subagent_stop:0:0"]
+trusted_hash = "sha256:2d941ada38ef1d54b6f5751c877d2219e81069061b50da10e4a8d7cd8896114d"
+
+[hooks.state."browser@openai-bundled:plugin.json#hooks[0]:stop:0:0"]
+trusted_hash = "sha256:317a07045dfc95aef2e80c55428a2f817e2768be867e3b1ef29a73da8636ae7f"
+
+[hooks.state."browser@openai-bundled:plugin.json#hooks[0]:interrupt:0:0"]
+trusted_hash = "sha256:cfee3430fc26a74355b330218d7aa3408d61072375278589d3fb9ccb3cb6952a"
+
+[hooks.state."chrome@openai-bundled:plugin.json#hooks[0]:subagent_stop:0:0"]
+trusted_hash = "sha256:2d941ada38ef1d54b6f5751c877d2219e81069061b50da10e4a8d7cd8896114d"
+
+[hooks.state."chrome@openai-bundled:plugin.json#hooks[0]:stop:0:0"]
+trusted_hash = "sha256:317a07045dfc95aef2e80c55428a2f817e2768be867e3b1ef29a73da8636ae7f"
+
+[hooks.state."chrome@openai-bundled:plugin.json#hooks[0]:interrupt:0:0"]
+trusted_hash = "sha256:cfee3430fc26a74355b330218d7aa3408d61072375278589d3fb9ccb3cb6952a"
+
+[hooks.state."computer-use@openai-bundled:plugin.json#hooks[0]:subagent_stop:0:0"]
+trusted_hash = "sha256:2d941ada38ef1d54b6f5751c877d2219e81069061b50da10e4a8d7cd8896114d"
+
+[hooks.state."computer-use@openai-bundled:plugin.json#hooks[0]:stop:0:0"]
+trusted_hash = "sha256:317a07045dfc95aef2e80c55428a2f817e2768be867e3b1ef29a73da8636ae7f"
+
+[hooks.state."computer-use@openai-bundled:plugin.json#hooks[0]:interrupt:0:0"]
+trusted_hash = "sha256:cfee3430fc26a74355b330218d7aa3408d61072375278589d3fb9ccb3cb6952a"
+
+[hooks.state."unified-computer-use@openai-bundled:plugin.json#hooks[0]:subagent_stop:0:0"]
+trusted_hash = "sha256:9dc8e6e56fe1aaed56eba99d13697c5e0737ee0980c5437991b3480efef75667"
+
+[hooks.state."unified-computer-use@openai-bundled:plugin.json#hooks[0]:stop:0:0"]
+trusted_hash = "sha256:f41fe6e03250f6b7048987873f93fb818aaef2f9a068e21a9899a7ac3d78659b"
+
+[hooks.state."unified-computer-use@openai-bundled:plugin.json#hooks[0]:interrupt:0:0"]
+trusted_hash = "sha256:0496e3a5d01598c776cf9dea1070a1c5ea15487419772a9c3699afb731bcb90c"
+
+[notice]
+hide_rate_limit_model_nudge = true
+
+[shell_environment_policy.set]
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "8e172ec9f458f2e636fc69a1b8c68c217f6bb8d10c41f70a05a0878b73863701"
+
+# Posty: user-authorized local PostWriter browser access.
+[browser_use.origins."http://localhost:3000"]
+access = "allow"
